@@ -14,10 +14,9 @@ x=int(input('Enter a integer less than 10:'))
 
 for i in people:
     if x <=10:
-      print(people[0:x])
+      print(people[x])
       break
 else:
    print("Please enter a number that less than 10, try again")
 
 
-    
